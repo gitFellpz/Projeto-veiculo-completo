@@ -1,4 +1,4 @@
-1) Primeira análise (20/03 às 15:05)
+1) Primeira análise (20/03 às 15:25)
 	Carro, moto e caminhão. O que os 3 tem em comum?
 	-> Os 3 são veiculos
 	SuperClass == Veiculo
@@ -13,6 +13,8 @@
 		- Tipo do motor
 		- Velocidade atual
 		- Câmbio (automático ou manual)
+		- Veiculo ligado? (boolean)
+		- Marcha
 
 	Quais métodos usaremos na SuperClass?
 		- Ligar
@@ -20,8 +22,16 @@
 		- Acelerar
 		- Frear
 		- Mudar de marcha
+		- Exibir informações do veiculo
 
-2)
+2) Segunda análise (as 16:15)
+	método exibirInformacoes em abstract para que seja reescrito
+       em cada subClasse.
 
+	Carro e caminhão tem freio de mão. Algo em comum neles.
+	Posso criar uma interface e implementa-la nessas duas subClasses
+       ao invés de fazer herança (moto também teria).
+
+	
 
 
