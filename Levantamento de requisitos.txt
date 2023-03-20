@@ -25,13 +25,17 @@
 		- Exibir informações do veiculo
 
 2) Segunda análise (as 16:15)
-	método exibirInformacoes em abstract para que seja reescrito
+	Método exibirInformacoes em abstract para que seja reescrito
        em cada subClasse.
 
 	Carro e caminhão tem freio de mão. Algo em comum neles.
 	Posso criar uma interface e implementa-la nessas duas subClasses
        ao invés de fazer herança (moto também teria).
 
-	
+3) Terceira análise (às 16:28)
+	Métodos como acelerar() e desligar() em carro e caminhão usam o
+       freio de mão como uma condição para essa ação. Colocaremos esse
+       método como abstract para ser reescreti em cada subclasses, onde
+       a moto não terá o freio de mão.
 
 
