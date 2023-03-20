@@ -43,14 +43,14 @@
 
 	Acelerar()
 		-> O veiculo precisa estar ligado.
-		-> A marcha precisa estar na primeira.
+		-> A marcha precisa estar na primeira se o carro estiver parado.
 
 		//Carro e caminhao
 		-> O freio de mão precisa estar abaixado.
 
 	Ligar()
 		-> O veiculo precisa estar desligado
-		-> O veiculo precisa estar parado.
+		-> O veiculo precisa estar parado. -> Não tem como andar com o carro desligado
 		-> O veiculo precisa estar com a marcha no neutro.
 
 	Desligar()
