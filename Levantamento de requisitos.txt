@@ -1,0 +1,27 @@
+1) Primeira análise (20/03 às 15:05)
+	Carro, moto e caminhão. O que os 3 tem em comum?
+	-> Os 3 são veiculos
+	SuperClass == Veiculo
+	SubClass == carro, moto e caminhão
+
+	Quais atributos usaremos na SuperClass?
+		- Nome/modelo do veiculo
+		- Marca
+		- Ano
+		- Cor
+		- Potência
+		- Tipo do motor
+		- Velocidade atual
+		- Câmbio (automático ou manual)
+
+	Quais métodos usaremos na SuperClass?
+		- Ligar
+		- Desligar
+		- Acelerar
+		- Frear
+		- Mudar de marcha
+
+2)
+
+
+
