@@ -38,4 +38,39 @@
        método como abstract para ser reescreti em cada subclasses, onde
        a moto não terá o freio de mão.
 
+4) Quarta análise (às 17:00)
+	Temos condições para acelerar, desligar, puxar o freio de mão etc. 
 
+	Acelerar()
+		-> O veiculo precisa estar ligado.
+		-> A marcha precisa estar na primeira.
+
+		//Carro e caminhao
+		-> O freio de mão precisa estar abaixado.
+
+	Ligar()
+		-> O veiculo precisa estar desligado
+		-> O veiculo precisa estar parado.
+		-> O veiculo precisa estar com a marcha no neutro.
+
+	Desligar()
+		-> O veiculo precisa estar ligado.
+		-> O veiculo precisa estar parado para desligar (usar recursividade).
+		
+		//Carro e caminhao
+		-> O veiculo precisa abaixar o freio de mão para desligar completamente.
+
+	Frenar()
+		-> O veiculo precisa estar em movimento.
+
+	MudarMarcha()
+		-> O veiculo precisa estar ligado		
+
+	PuxarFreioMao()
+		-> O veiculo precisa estar parado.
+		-> O freio de mão precisa estar "descido"/para baixo.
+	
+	DescerFreioMao()
+		-> O freio de mão precisa estar puxado.
+
+	
